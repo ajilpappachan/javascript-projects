@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Infinte Scroll</title>
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Title -->
+		<h1>Unsplash API - Infinte Scroll</h1>
+		<!-- Loader -->
+		<div class="loader" id="loader">
+			<div class="loader-container">
+				<img
+					class="animate__animated animate__shakeX animate__infinite"
+					src="duck.png"
+					alt="Loading"
+				/>
+			</div>
+		</div>
+		<!-- Image Container -->
+		<div class="image-container" id="image-container"></div>
+		<!-- Script -->
+		<script src="../secrets.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
