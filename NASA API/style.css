@@ -58,9 +58,14 @@ body {
 	user-select: none;
 }
 
+.clickable:hover {
+	filter: brightness(80%);
+}
+
 /* Images Container */
 .images-container {
 	margin-top: 50px;
+	width: 800px;
 }
 
 .card {
@@ -75,6 +80,11 @@ body {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card-img-top {
+	width: 100%;
+	height: auto;
+}
+
 .card-body {
 	padding: 20px;
 }
@@ -87,6 +97,7 @@ body {
 /* Save Confirmation */
 .save-confirmed {
 	background: white;
+	color: #706cd9;
 	padding: 8px 16px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -106,9 +117,18 @@ body {
 	body {
 		line-height: 1.4rem;
 		font-size: 0.9rem;
+		text-align: justify;
 	}
 
 	.card-title {
 		font-size: 20px;
+	}
+
+	.images-container {
+		width: 100%;
+	}
+
+	.save-confirmed {
+		right: 25px;
 	}
 }
